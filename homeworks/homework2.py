@@ -5,7 +5,7 @@
 8 / 2 + 5 - -3 / 2
 """
 #  BEGIN
-
+print(8 / 2 + 5 - -3/ 3 )
 
 #  END
 
@@ -17,7 +17,7 @@
 """
 
 #  BEGIN
-
+print('"Khal Drogo\'s favorite word is "athjahakar""')
 
 #  END
 
@@ -25,14 +25,12 @@
 """
 Задание 3:
 Выведите на экран
-
 Winter came for the House of Frey.
-
 используя конкатенацию слов
 """
 
 #  BEGIN
-
+print('Winter' + 'came' + 'for' + 'the' + 'House' + 'of' + 'Frey')
 
 #  END
 
@@ -44,7 +42,10 @@ Winter came for the House of Frey.
 """
 
 #  BEGIN
-
+word = "Firs text"
+print(word)
+word = "Second text"
+print(word)
 
 #  END
 
@@ -52,17 +53,15 @@ Winter came for the House of Frey.
 """
 Задание 5:
 Напишите программу, которая спришивает у пользователя его имя и приветсвует его.
-
 Пример общения:
 >>> What's your name?
 Maruf
 >> Hello, Maruf!
-
 Программа должная задавать вопрос What's your name?, считать имя и потом напечатать приветсвенное сообщение
-
 """
 
 #  BEGIN
-
-
+print("What's your name?")
+name = input()
+print("Hello,", name)
 #  END
